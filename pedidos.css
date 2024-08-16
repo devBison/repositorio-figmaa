@@ -1,0 +1,311 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "New Amsterdam", sans-serif;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(252, 105, 105);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+margin-top: 3vh;
+margin-left: 10%;
+}
+#logo:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+
+#header_pesquisa{
+    display: flex;
+    
+    flex-direction: row;
+}
+
+#header_pesquisa input{
+    margin-left: 10%;
+
+    width: 30vh;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    color: #b2b2b2;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#header_pesquisa button{
+    font-family: "New Amsterdam", sans-serif;
+   margin-left: 1vh;
+    font-size: 16px;
+    color: azure;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    display: inline-block;
+    padding: 13px 30px 10px;
+    background: #ffd900;
+    border: none;
+    border-radius: 10px;
+}
+#header_pesquisa button:hover{
+    
+
+        transform: scale(1.2);
+        
+        transition: .5s;}
+    
+        header_pesquisa button:hover
+        { color: rgb(255, 255, 255);}
+
+
+
+#geral{
+    font-family: "New Amsterdam", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    white-space: nowrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+}
+
+#geral li a{
+    display: flex;
+    align-items: center;
+
+    margin-left: 4vh;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+
+
+#geral li:hover{
+
+    transform: scale(1.2);
+    
+    transition: .5s;}
+
+    #geral li:hover a { color: rgb(255, 208, 0)}
+
+
+/*===========================================================*/
+#geral2{
+    background-color: #ffc400;
+    font-family: "New Amsterdam", sans-serif;
+
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+
+    height: 5vh;
+    width: 21vh;
+    
+   border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 2;
+    margin-left: 2%;
+}
+#geral2 li a{
+    display: flex;
+    align-items: center;
+
+    margin-left: 2vh;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+
+
+#lg:hover a
+{transform: scale(1.2);
+    
+    transition: .5s;}
+
+
+    #lg:hover a { color: rgb(43, 255, 0)}
+
+    
+#cd:hover a
+{transform: scale(1.2);
+    
+    transition: .5s;}
+
+
+    #cd:hover a { color: rgb(43, 255, 0)}
+
+/*--------------------------------------------*/
+#titulo {
+    font-family: "New Amsterdam", sans-serif;
+    margin-left: 60vh;
+ 
+    color: #000000	;
+    margin-left: 43%;
+} 
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-family: "New Amsterdam", sans-serif;
+    color: #FF69B4;
+    margin-left: 43%;
+} 
+
+#check{
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elemento de tag <body> */
+
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    
+    font-size: 1em;
+    color: #000000;
+    border-radius: 5px;
+}
+.grupo{
+    white-space: nowrap;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;white-space: nowrap;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+    white-space: nowrap;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.1em;
+    color: #000000;
+    display: block;
+    white-space: nowrap;
+}
+
+/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+    white-space: nowrap;
+}
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    white-space: nowrap;
+    
+}
+
+/* Elementos de classe "campo" de tag <select> e <option>*/
+.campo select option {
+    padding-right: 1em;
+    margin-left: 10vh;
+}
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+    white-space: nowrap;
+    margin-left: 10vh;
+}
+
+/* Elemento de classe "botao" */
+.botao {
+    font-family: "New Amsterdam", sans-serif;
+   
+    font-size: 1.2em;
+    background: #000000;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 10vh;
+    transform: translate(-50%, -50%)
+    m
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #ff0000;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    transition: scale(1.2);
+    transform: .5s;
+
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+    cursor: pointer;
+}
+
+main{
+
+    background-image: url(fundo.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.5);
+}
+form{
+    font-family: "New Amsterdam", sans-serif;
+    margin-left: 10vh;
+    margin-left: 50vh;
+    background-color: #ffc400;
+    height: 80vh;
+    width: 80vh;
+    border-radius: 20px;
+}

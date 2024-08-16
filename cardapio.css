@@ -1,0 +1,214 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "New Amsterdam", sans-serif;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(252, 105, 105);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+margin-top: 3vh;
+margin-left: 10%;
+}
+#logo:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+
+#header_pesquisa{
+    display: flex;
+    
+    flex-direction: row;
+}
+
+#header_pesquisa input{
+    margin-left: 10%;
+
+    width: 30vh;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    color: #b2b2b2;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#header_pesquisa button{
+    font-family: "New Amsterdam", sans-serif;
+   margin-left: 1vh;
+    font-size: 16px;
+    color: azure;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    display: inline-block;
+    padding: 13px 30px 10px;
+    background: #ffd900;
+    border: none;
+    border-radius: 10px;
+}
+#header_pesquisa button:hover{
+    
+
+        transform: scale(1.2);
+        
+        transition: .5s;}
+    
+        header_pesquisa button:hover
+        { color: rgb(255, 255, 255);}
+
+
+
+#geral{
+    font-family: "New Amsterdam", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    white-space: nowrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+}
+
+#geral li a{
+    display: flex;
+    align-items: center;
+
+    margin-left: 4vh;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+
+
+#geral li:hover{
+
+    transform: scale(1.2);
+    
+    transition: .5s;}
+
+    #geral li:hover a { color: rgb(255, 208, 0)}
+
+
+/*===========================================================*/
+#geral2{
+    background-color: #ffc400;
+    font-family: "New Amsterdam", sans-serif;
+
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+
+    height: 5vh;
+    width: 21vh;
+    
+   border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 2;
+    margin-left: 2%;
+}
+#geral2 li a{
+    display: flex;
+    align-items: center;
+
+    margin-left: 2vh;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+
+
+#lg:hover a
+{transform: scale(1.2);
+    
+    transition: .5s;}
+
+
+    #lg:hover a { color: rgb(43, 255, 0)}
+
+    
+#cd:hover a
+{transform: scale(1.2);
+    
+    transition: .5s;}
+
+
+    #cd:hover a { color: rgb(43, 255, 0)}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fundo.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+#produtao{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+#produtos1{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#produtos2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pizzas {
+    
+    margin-top: 25vh;
+    margin-left: 40vh;
+    background-color: black;
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+#pizza:hover {
+    transform: scale(1.2);
+    
+    transition: .5s;
+    
+}
